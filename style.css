@@ -1,0 +1,15 @@
+body {
+    font-family: 'Lobster Two', cursive;
+    background:linear-gradient(rgb(120, 90, 70), rgb(210, 65, 54), url(C:\Users\18mia\OneDrive\Desktop\firebase\img\pizza.jpg));
+}
+h1 {
+    font-family: 'Lobster Two', cursive;
+    color:rgb(255, 255, 240)
+
+}
+
+/*D24136 Terra cotta rgb(210, 65, 54)
+EB8A3E Honey rgb(210, 65, 54)
+EBB582 biscotti rgb(235, 181, 130)
+785A46 stone rgb(120, 90, 70)
+FFFFF0 white    rgb(255, 255, 240)*/

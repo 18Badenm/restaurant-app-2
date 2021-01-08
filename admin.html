@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--allows highest version of rendering engine for chome and for edge-->
+    <meta http-equiv= "X-UA-Compatible" content = "ie=edge, chrome=1">
+    <link href= "style.css" rel = "stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- this is the google fonts link-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <title>Firebase</title>
+</head>
+<body>
+
+
+<!---------------------
+    Form container
+------------------------------>
+    <div class="container">
+        <form action="/" method = "post" enctype = "multipart/form-data">
+            <!-- this is the header-->
+            <h1 class = "logo"> italian restaurant</h1>
+            <!-- the drop down box with 4 attributs in it-->
+            <select name = "category"> 
+                <option value ="Prim">Prim</option>
+                <option value ="Sec">Sec</option>
+                <option value ="Third">Third</option>
+                <option value ="Fourth"> Fourth</option>
+            </select>
+            <!--the other 4 boxes that do different things-->
+                <input type="text" name = "title" placeholder = "Title">
+                <input type="number" name = "price" placeholder = "Price">
+                <input type="file" name = "image">
+                <input type="submit" name = "submit" placeholder = "Add">
+        </form>
+    </div>
+<script src="menu.js"></script>
+<script src="firebase.js"></script>
+</body>
+</html>
