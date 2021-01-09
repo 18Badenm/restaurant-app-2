@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!--allows highest version of rendering engine for chome and for edge-->
+    <meta http-equiv= "X-UA-Compatible" content = "ie=edge, chrome=1">
+    <link href= "style.css" rel = "stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- this is the google fonts link-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">  
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <title>Firebase</title>
+</head>
+<body>
+
+
+<!---------------------
+    Form container
+------------------------------>
+    <div class="container">
+        <div class="cont1">
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+        <!--the other 4 boxes that do different things-->
+        <input type="button" onclick="window.location.href='https://www.w3docs.com';" value="home" />
+        <input type="button" onclick="window.location.href='https://www.w3docs.com';" value="menu" />
+        <input type="button" onclick="window.location.href='https://www.w3docs.com';" value="order" />
+        <input type="button" onclick="window.location.href='https://www.w3docs.com';" value="offers" />
+        <input type="button" onclick="window.location.href='https://www.w3docs.com';" value="cart" />
+        <input type="button" onclick="window.location.href='https://www.w3docs.com';" value="contact" />
+
+        </div>
+        <form action="/" method = "post" enctype = "multipart/form-data">
+            <input type="text" name = "title" placeholder = "Title">
+            <input type="number" name = "price" placeholder = "Price">
+            <input type="file" name = "image">
+            <input type="submit" name = "submit" placeholder = "Add">
+        </form>
+
+    </div>
+<script src="menu.js"></script>
+<script src="firebase.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+</body>
+</html>
